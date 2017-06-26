@@ -9,19 +9,18 @@ package com.cice.clases;
  *
  * @author cice
  */
-public class Principal {
+public class Calculadora {
     
     
-    public static void main (String [] args){
-        
-        
-     Coche coche1=new Coche();
-     coche1.arrancar();
-     coche1.acelerar();
-     coche1.frenar();
-     coche1.apagar();
+    static int c;
     
-    
+    public static int suma (int a, int b){
+        return a +b +c ;
     }
+    
+    public int resta (int a, int b){
+        return a-b;
+    }
+
     
 }

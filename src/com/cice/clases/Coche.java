@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author cice
  */
-public class Coche {
+public  class Coche {
     
     //atributos o variables
     private String modelo;
@@ -112,6 +112,7 @@ public class Coche {
     
     void frenar(){
         System.out.println("Estoy frenando");
+        
     
     }
     
